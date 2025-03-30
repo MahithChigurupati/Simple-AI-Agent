@@ -1,0 +1,34 @@
+# Ignore Python virtual environment
+venv/
+.venv/
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Docker-related files
+docker-compose*.yml
+
+# Ignore git directory
+.git/
+
+# Ignore local environment files
+.env
+.env.*
+env/
+
+# Ignore test files
+tests/
+*/tests/*
+
+# Ignore static and media files (if not needed in the image)
+static/
+media/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
