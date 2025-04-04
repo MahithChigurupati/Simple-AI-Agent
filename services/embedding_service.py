@@ -1,5 +1,5 @@
 import os
-import fitz  # PyMuPDF
+import fitz
 import glob
 from dotenv import load_dotenv
 from langchain.text_splitter import RecursiveCharacterTextSplitter

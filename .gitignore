@@ -19,8 +19,20 @@ env
 docs_build
 site_build
 venv
+.venv
 docs.zip
 archive.zip
+# FAISS index files
+faiss_index/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PDF content
+content/
 
 # vim temporary files
 *~
